@@ -11,7 +11,7 @@ def generate(string, start, end):
             generate(x, start+1, end)
             (x[start],x[current]) = (x[current],x[start])
 
-N=8
+N=int(raw_input('Enter N : '))
 sol=0
 t = time.time()
 cols = range(N)
